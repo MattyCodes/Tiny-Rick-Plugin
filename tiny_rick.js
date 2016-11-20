@@ -1,8 +1,6 @@
 // Make sure to include Tiny Rick as soon as your page is loaded.
 var includeTinyRick = function(option) {
-	if (option === undefined) {
-		$("body").append("<img src='tiny_rick.gif' width='350px' height='330px' style='position: fixed; bottom: -350px; right: 5%;' id='tinyrick'>");
-	} else if  (option == "bubble") {
+	if (option == "bubble") {
 		$("body").append("<img src='tiny_rick_with_bubble.gif' width='350px' height='330px' style='position: fixed; bottom: -350px; right: 5%;' id='tinyrick'>");
 	} else {
 		$("body").append("<img src='tiny_rick.gif' width='350px' height='330px' style='position: fixed; bottom: -350px; right: 5%;' id='tinyrick'>");
