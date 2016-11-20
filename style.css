@@ -10,6 +10,7 @@ header.intro-header {
 
 .row > h1 {
 	padding-bottom: 10px;
+	font-family: 'Questrial', sans-serif;
 }
 
 #tinyrick-button:focus {
