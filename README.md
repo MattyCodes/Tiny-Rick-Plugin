@@ -35,7 +35,7 @@ display Tiny Rick with a speech bubble. Wherever you want to implement the popup
 ```
 
 Tiny Rick that is rendered by ```javascript includeTinyRick(); ```
-![alt tag](tiny_rick.gif =200x180)
+<img src="tiny_rick.gif" width="200px" height="180px" />
 
 
 
