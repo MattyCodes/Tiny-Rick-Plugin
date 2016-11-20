@@ -17,7 +17,8 @@ header.intro-header {
 }
 
 #tinyrick-button:hover {
-	background-color: #3ec0e8;
+	font-size: 34px;
+	text-shadow: 2px 2px #262626;
 }
 
 #tinyrick-button {
@@ -29,7 +30,7 @@ header.intro-header {
 	text-shadow: 1.5px 1.5px #262626;
 	letter-spacing: 1.5px;
 	color: #FFF;
-	background-color: #43d2f2;
+	background-color: #3ec0e8;
 	border: 1px solid #262626;
 	border-radius: 5px;
 }
