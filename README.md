@@ -25,9 +25,19 @@ display Tiny Rick with a speech bubble. Wherever you want to implement the popup
 		// includeTinyRick('bubble');
 		includeTinyRick();
 		// Set up your event listener to run tinyRickPopup();
-		tinyRickButton();
+		$("#tinyrick-button").on("click", function() {
+			tinyRickPopup();
+		});
 		// Provided event listener that pops up Tiny Rick
 		// when a button is clicked if it has the 'tinyrick-button' ID.
 	});
 	</script>
 ```
+
+Tiny Rick that is rendered by ```javascript includeTinyRick(); ```
+![alt tag](tiny_rick.gif)
+
+
+
+
+
