@@ -8,7 +8,7 @@
 In your HTML file, include both the jQuery library and the tiny_rick.js file.
 
 
-```
+```html
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
 	<script src="Tiny_Rick_Plugin/tiny_rick.js" type="text/javascript"></script>
 ```
@@ -18,7 +18,7 @@ as the page loads. Optionally, pass in 'bubble' as an argument to
 display Tiny Rick with a speech bubble.
 
 
-```
+```html
 	<script>
 	$(document).ready(function() {
 		// For speech-bubble Rick:
