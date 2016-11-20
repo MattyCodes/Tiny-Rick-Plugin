@@ -41,8 +41,8 @@ display Tiny Rick with a speech bubble. Wherever you want to implement the popup
 Tiny Rick that is rendered by ``` includeTinyRick(); ```
 
 
-<img src="tiny_rick.gif" width="200px" height="180px" />
+<img src="tiny_rick.gif" width="240px" height="220px" />
 
 Tiny Rick that is rendered by ``` includeTinyRick('bubble'); ```
 
-<img src="tiny_rick_width_bubble.gif" width="200px" height="180px" />
+<img src="tiny_rick_with_bubble.gif" width="240px" height="220px" />
