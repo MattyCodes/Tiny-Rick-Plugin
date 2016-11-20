@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>
+			Tiny Rick
+		</title>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Tiny Rick JavaScript -->
+		<script type="text/javascript" src="tiny_rick_script.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			// Use includeTinyRick as soon as your page loads.
+			includeTinyRick();
+			// This example event listener runs the Tiny Rick Popup when a
+			// button with the tinyrick-button ID is clicked.
+			tinyRickButton();
+		});
+		</script>
+	</head>
+	<body>
+		<main>
+			<header></header>
+			<button id="tinyrick-button">Tiny Rick</button>
+		</main>
+	</body>
+</html>
