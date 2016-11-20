@@ -15,7 +15,7 @@ In your HTML file, include both the jQuery library and the tiny_rick.js file.
 
 In your local script, run ``` includeTinyRick(); ``` as soon
 as the page loads. Optionally, pass in 'bubble' as an argument to
-display Tiny Rick with a speech bubble.
+display Tiny Rick with a speech bubble. Wherever you want to implement the popup, run ``` tinyRickPopup(); ```.
 
 
 ```html
