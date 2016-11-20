@@ -1,28 +1,44 @@
-<html>
-	<head>
-		<title>
-			Tiny Rick
-		</title>
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- jQuery Library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<!-- Tiny Rick JavaScript -->
-		<script type="text/javascript" src="tiny_rick_script.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function() {
-			// Use includeTinyRick as soon as your page loads.
-			includeTinyRick();
-			// This example event listener runs the Tiny Rick Popup when a
-			// button with the tinyrick-button ID is clicked.
-			tinyRickButton();
-		});
-		</script>
-	</head>
-	<body>
-		<main>
-			<header></header>
-			<button id="tinyrick-button">Tiny Rick</button>
-		</main>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiny Rick</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-clean-blog/3.3.7/css/clean-blog.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Tiny Rick JavaScript -->
+    <script type="text/javascript" src="tiny_rick_script.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // Use includeTinyRick as soon as your page loads.
+        includeTinyRick();
+        // This example event listener runs the Tiny Rick Popup when a
+        // button with the tinyrick-button ID is clicked.
+        tinyRickButton();
+    });
+    </script>
+</head>
+<body>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('rick_and_morty_header.png')"></header>
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+           <h1> Improve any website with Tiny Rick! </h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <button id="tinyrick-button">Tiny Rick</button>
+    </div>
+</body>
 </html>
