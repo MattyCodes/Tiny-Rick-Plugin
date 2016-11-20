@@ -1,9 +1,11 @@
 # Tiny Rick
 
+
 ## Easily add a Tiny Rick to your website
 
 
 ### Instructions:
+
 
 In your HTML file, include both the jQuery library and the tiny_rick.js file.
 
@@ -12,6 +14,7 @@ In your HTML file, include both the jQuery library and the tiny_rick.js file.
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
 	<script src="Tiny_Rick_Plugin/tiny_rick.js" type="text/javascript"></script>
 ```
+
 
 In your local script, run ``` includeTinyRick(); ``` as soon
 as the page loads. Optionally, pass in 'bubble' as an argument to
@@ -34,10 +37,12 @@ display Tiny Rick with a speech bubble. Wherever you want to implement the popup
 	</script>
 ```
 
-Tiny Rick that is rendered by ```javascript includeTinyRick(); ```
+
+Tiny Rick that is rendered by ``` includeTinyRick(); ```
+
+
 <img src="tiny_rick.gif" width="200px" height="180px" />
 
+Tiny Rick that is rendered by ``` includeTinyRick('bubble'); ```
 
-
-
-
+<img src="tiny_rick_width_bubble.gif" width="200px" height="180px" />
